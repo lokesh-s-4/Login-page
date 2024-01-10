@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  background-image: image(sp);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: url(img.jpg);
+  background-position: centre;
+  background-size: cover;
+  color: whitesmoke;
+}
+.Wrapper {
+  width: 340px;
+  background: transparent;
+  height: 380px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  background-color: rgb(226, 17, 226);
+}
+.Wrapper h3 {
+  font-size: 40px;
+  margin: 10px;
+  padding: 5px;
+  color: black;
+  text-decoration: 2px white line-through;
+}
+.Wrapper .Info {
+  background-color: pink;
+  height: 45px;
+  width: 85%;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  margin: 14px 20px;
+}
+#forgot {
+  margin-left: 52px;
+  padding-top: 10px;
+}
+p {
+  margin-left: 18%;
+}
+.Login {
+  background-color: pink;
+  height: 45px;
+  width: 90%;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  margin: 14px 20px;
+}
+#Remember {
+  margin: 8px 14px 10px 20px;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+::placeholder,
+button,
+p {
+  font-size: 17px;
+}
+.Wrapper h3:hover {
+  color: beige;
+  text-decoration: 3px rgb(0, 0, 0) line-through;
+}
+
+button:hover {
+  background: linear-gradient(50deg, #061de3, #e306ca);
+}
+.info {
+  padding-left: 20px;
+}
+.Inputbox input {
+  padding-left: 20px;
+}
+input {
+  font-size: 17px;
+}
